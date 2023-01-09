@@ -1,62 +1,62 @@
 {
-    "name": "PWA",
-    "short_name": "pwa",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum porttitor libero id hendrerit. Sed id arcu hendrerit, pellentesque ante sed, maximus odio.",
-    "orientation": "portrait",
-    "display": "standalone",
+    "name": "Intellisoft VRJ 3.0",
+    "short_name": "Intellisoft_VRJ",
+    "description": "Sistema de Gerenciamento empresarial. Este sistema gerencia todas as etapas e setores de uma empresa dando total controle aos seus proprietários sobre os dados gerados.",
+    "theme_color": "#00B0EA",
     "background_color": "#506486",
-    "theme_color": "#00B0E4",
-    "start_url": ".sistema/app_login/",
-    "dir": "ltr",
-    "lang": "PT",
-    "screenshots": [
-      {
-        "src": "https://cdn.glitch.com/2cd905a9-942d-41a4-86d3-7fcb2271b8bb%2FAnnotation%202019-10-22%20122534.png?v=1571772350668",
-        "sizes": "256x256",
-        "type": "image/png"
-      },
-      {
-        "src": "https://lh3.googleusercontent.com/BIjKSdSgq8soO8LJdgH-lrnNhHhqiwH7p85M1mqUJRELrphnHSBETXAgzu7aLYE5MQ=w3240-h1932-rw",
-        "sizes": "256x256",
-        "type": "image/png"
-      },
-      {
-        "src": "https://lh3.googleusercontent.com/BIjKSdSgq8soO8LJdgH-lrnNhHhqiwH7p85M1mqUJRELrphnHSBETXAgzu7aLYE5MQ=w3240-h1932-rw",
-        "sizes": "256x256",
-        "type": "image/png"
-      }
-    ],
-    "features": [
-      "Microsoft Graph",
-      "Low latency",
-      "fast",
-      "cross platform, this is a long feature to test. Lets add some more text."
-    ],
+    "display": "standalone",
+    "scope": "./sistema/",
+    "start_url": "./sistema/app_login/",
     "icons": [
       {
-        "src": "https://cdn.glitch.com/ad1b5386-7113-477b-8f34-c42ff6178d99%2Ficon-512x512.png?v=1565728638958",
-        "sizes": "512x512",
+        "src": "icon-512x512.png",
+        "sizes": "16x16",
         "type": "image/png"
       },
       {
-        "src": "https://cdn.glitch.com/ad1b5386-7113-477b-8f34-c42ff6178d99%2Ficon-512x512.png?v=1565728638958",
-        "sizes": "256x256",
+        "src": "icon-512x512.png",
+        "sizes": "32x32",
         "type": "image/png"
       },
       {
-        "src": "https://cdn.glitch.com/ad1b5386-7113-477b-8f34-c42ff6178d99%2Ficon-512x512.png?v=1565728638958",
+        "src": "icon-512x512.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
         "sizes": "128x128",
         "type": "image/png"
       },
       {
-        "src": "https://cdn.glitch.com/ad1b5386-7113-477b-8f34-c42ff6178d99%2Ficon-512x512.png?v=1565728638958",
-        "sizes": "64x64",
+        "src": "icon-512x512.png",
+        "sizes": "144x144",
         "type": "image/png"
       },
       {
-        "src": "https://cdn.glitch.com/ad1b5386-7113-477b-8f34-c42ff6178d99%2Ficon-512x512.png?v=1565728638958",
-        "sizes": "48x48",
+        "src": "icon-512x512.png",
+        "sizes": "152x152",
         "type": "image/png"
-      }
-    ]
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }  ]
   }

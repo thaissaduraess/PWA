@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intellisoft VRJ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="arquivos/images/favicon.ico" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#8795AF"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <script src="https://use.fontawesome.com/d2f774264e.js"></script>
+    <link rel="stylesheet" href="arquivos/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="arquivos/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="arquivos/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="arquivos/theme/css/style.css">
+    <link rel="preload" as="style" href="arquivos/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="arquivos/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./icon-144x144.png">
+    <script src="./sistema.js" defer></script>
+</head>
+<body>
+
+    <section data-bs-version="5.1" class="header9 cid-sOz2UuFevJ mbr-fullscreen" id="header9-2">
+        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+        <div class="text-center container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-9">
+                    <div class="image-wrap mb-4">
+                        <img src="arquivos/images/logo-intell-165x172.png" alt="Intellisoft">
+                    </div>
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>Bem-vindo ao Intellisoft VRJ</strong></h1>
+                    <p class="mbr-text mbr-fonts-style display-4">
+                        Para uma maior comodidade, você pode clicar no botão <b>Instalar Aplicativo</b> abaixo e o aplicativo será instalado no seu dispositivo.
+                    </p>
+                    <div>
+                        <pwa-install id="installComponent"></pwa-install>
+                        <script async defer>
+                            const ref = document.getElementById("installComponent");
+                            ref.installbuttontext = "Instalar Aplicativo";
+                            ref.iosinstallinfotext = "Clique no botão ⏍ do Safari e escolha a opção Adicionar à Tela de Início";
+                            ref.descriptionheader = "Descrição";
+                            ref.explainer = "Este aplicativo pode ser instalado em seu PC ou dispositivo móvel. Isso permitirá que este aplicativo da web se pareça e se comporte como qualquer outro aplicativo instalado. Você o encontrará em suas listas de aplicativos e poderá fixá-lo em sua tela inicial, menus de início ou barras de tarefas. Este aplicativo da web instalado também será capaz de interagir com segurança com outros aplicativos e seu sistema operacional.";
+                            ref.cancelbuttontext = "Cancelar";
+                            ref.featuresheader = "Características";
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
+        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">
+            <a href="https://mobirise.site/i" style="color:#aaa;"></a>
+        </p>
+    </section>
+
+    <script src="arquivos/bootstrap/js/bootstrap.bundle.min.js"></script>  
+    <script src="arquivos/smoothscroll/smooth-scroll.js"></script>  
+    <script src="arquivos/ytplayer/index.js"></script>  
+    <script src="arquivos/theme/js/script.js"></script>  
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
+
+</body>
+</html>

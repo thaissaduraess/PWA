@@ -1,14 +1,14 @@
 {
-    "name": "my PWA",
+    "name": "PWA",
     "short_name": "pwa",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum porttitor libero id hendrerit. Sed id arcu hendrerit, pellentesque ante sed, maximus odio.",
     "orientation": "portrait",
     "display": "standalone",
-    "background_color": "#000000",
-    "theme_color": "#000000",
-    "start_url": "www/",
+    "background_color": "#506486",
+    "theme_color": "#00B0E4",
+    "start_url": ".sistema/app_login/",
     "dir": "ltr",
-    "lang": "EN",
+    "lang": "PT",
     "screenshots": [
       {
         "src": "https://cdn.glitch.com/2cd905a9-942d-41a4-86d3-7fcb2271b8bb%2FAnnotation%202019-10-22%20122534.png?v=1571772350668",

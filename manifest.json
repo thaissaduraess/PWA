@@ -1,7 +1,7 @@
 {
-    "name": "Intellisoft VRJ 3.0",
-    "short_name": "Intellisoft_VRJ",
-    "description": "Sistema de Gerenciamento empresarial. Este sistema gerencia todas as etapas e setores de uma empresa dando total controle aos seus proprietários sobre os dados gerados.",
+    "name": "Cartolisse 3.0",
+    "short_name": "Cartolisse",
+    "description": "Sistema de Apostas em jogos de futubol.",
     "theme_color": "#00B0EA",
     "background_color": "#506486",
     "display": "standalone",
